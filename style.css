@@ -1,0 +1,705 @@
+html,body {
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-linkedin-in{
+      font-size: 1rem;
+      
+     
+  }
+  #nav-mob{
+      display: none;
+  }
+  #nav-deks{
+      display: block;
+  }
+ .navbar-left .nav-link{
+     margin-left: -1rem;
+  }
+  .nav{
+      background-color: transparent;
+      width: 100%;
+  }
+
+  .sidebar {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 100;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 27px;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    padding-left: 90%;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: transparent;
+  }
+  
+ .slider{
+     width: 100%;
+ }
+ .carousel{
+     height: 500px !important;
+     width: 103% !important;
+ }
+ .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    padding-left: 30%;
+    font-size: 2rem !important;
+ }
+ .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-next {
+    padding-right: 30%;
+    font-size: 2rem !important;
+ }
+ .carousel-caption{
+     right: 60% !important;
+     bottom: 60% !important;
+     font-size: 1.3rem;
+ }
+ .carousel-caption h3{
+   
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+.carousel-caption a{
+    margin-left: -9% ;
+    color: gray;
+    
+}
+.carousel-caption .a2{
+    margin-left:10% ;
+    color: gray;
+    
+}
+.teach {
+   margin-top: -8%;
+    
+}
+.teach h2{
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: 3.9rem;
+}
+.redd{
+   color: red;
+    
+}
+.teach h5{
+    margin-top: 30%;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.teach p{
+    margin-top: 13%;
+    font-size: 1.3rem;
+    width: 80%;
+}
+.teach img{
+    margin-top: 43%;
+    width: 90%;
+    border-radius: 10%;
+}
+.urun{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 2rem;
+    
+}
+#owl-slider{
+    width: 80%;
+    margin-left: 18%;
+    margin-top: 7%;
+    text-decoration: none;
+}
+#owl-slider .number{
+   padding-left: 2rem;
+   padding-top: 2rem;
+   font-size: 3rem;
+   color: white;
+   
+}
+#owl-slider .text{
+    padding-left: 2rem;
+    padding-top: 5rem;
+    font-size: 2rem;
+    color: white;
+ }
+#owl-slider a:hover{
+    text-decoration: none;
+    
+ }
+ .btnn{
+     margin-left: 12%;
+     margin-top: -12%;
+ }
+ .btnn button{
+   background: transparent;
+   border: none;
+   font-size: 1.6rem;
+}
+.text1 {
+    transform: rotate(270deg);
+}
+.text1{
+    margin-left: -74%;
+    margin-top: -81%;
+    font-size: 1.8rem;
+    
+}
+#world{
+    overflow: hidden;
+    margin-top: 100%;
+    position: relative;
+    
+    
+    
+}
+.world {
+    
+    position: relative;
+    background-image: url("img/background-world-map-1-300x168.gif");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+
+}
+.world h1 {
+    
+    padding-top: 10%;
+}
+.world p {
+    
+    padding-top: 3%;
+}
+.num{
+    padding-left: 33%;
+    margin-top: -10%;
+}
+.fa-arrows-alt-v{
+    transform: rotate(120deg);
+    border: 1px solid;
+    padding: .8rem;
+    border-radius: .7rem;
+    color: gray;
+    
+}
+.fa-users{
+    color: gray;
+    font-size: 2rem;
+}
+.icon{
+    font-size: 1rem;
+    color: gray;
+}
+.gray{
+    background-color:#ededed ;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 510px;
+}
+hr{
+    color: black;
+    font-size: .5rem;
+}
+.carousel-caption1{
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.carousel-caption1 h5{
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding-top: 5%;
+}
+.carousel-caption1 p{
+    padding-top: 5%;
+    font-size: 1.4rem;
+}
+.hr{
+    border-bottom: 1px solid;
+}
+.carousel-caption1 span{
+   color: #8ab17d;
+}
+
+.btn-gray{
+    background-color: #d5d5d5;
+    border-radius: 2rem;
+    margin-left: 40%;
+    margin-top: 12%;
+    padding: .5rem;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+ 
+}
+.footer{
+    background-image:url("img/footer.jpg") ;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.footer h1{
+color: white;
+}
+.footer .row{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    }
+.footer p{
+ color: white;
+ font-size: 1.3rem;
+  }
+  
+.footer .info{
+  font-size: 2rem;
+     }
+.footer .alt{
+  font-size: 1rem;
+  color: gray;
+  padding-left: 3.5rem;
+         }
+
+ .footer .btn-white{
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 2rem;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding: .9rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    width: 50%;
+    
+ 
+ }   
+ .footer .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-linkedin-in{
+    font-size: 1.1rem;
+    padding-left: 1rem;
+} 
+
+    .footer .btn-yellow{
+        background-color: #efb366;
+        border-radius: 2rem;
+        margin-left: 40%;
+        margin-top: 1%;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 50%;
+        font-size: 1.2rem;
+        color: white;
+        
+     
+     }   
+     .little .slider{
+        width: 310px;
+        height: 300px;
+        border-radius: 30px;
+        left: 60%;
+        margin-top: -8%;
+       
+     }
+     .little .slidee{
+        width: 270px;
+        height: 250px;
+        border-radius: 30px;
+        background-color: #e30613;
+     }
+     .little p{
+        color: white;
+        font-size: 3rem;
+        padding-left: 2rem;
+        padding-top: 2.5rem;
+     }
+     .form-control{
+         border: 1px solid;
+     }
+     .pantone{
+         padding-top: 8%;
+     }
+     @media only screen and (max-width: 500px) {
+       #nav-deks{
+           display: none;
+       }
+       #nav-mob{
+           display: block;
+       }
+        .carousel{
+            height: 230px !important;
+            width: 109% !important;
+        }
+        .carousel-caption{
+            right: 60% !important;
+            bottom: 20% !important;
+            font-size: .8rem;
+        }
+        .carousel-caption h3{
+   
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+        }
+        .carousel-caption .a2{
+            margin-left:5% ;
+            color: gray;
+            
+        }
+        .little .slider{
+            width: 300px;
+            height: 300px;
+            border-radius: 30px;
+            left: 4%;
+            margin-top: -25%;
+           
+         }
+         .little .slidee{
+            width: 270px;
+            height: 250px;
+            border-radius: 30px;
+            background-color: #e30613;
+         }
+         .teach {
+            margin-top: 0%;
+             
+         }
+         .teach h2{
+             margin-top: 1%;
+             font-weight: bold;
+             font-size: 3.9rem;
+             text-align: center;
+         }
+         .redd{
+            color: red;
+             
+         }
+         .teach h5{
+             margin-top: 10%;
+             font-weight: bold;
+             font-size: 2rem;
+             text-align: center;
+         }
+         .teach p{
+             margin-top: 13%;
+             font-size: 1.3rem;
+             width: 100%;
+             text-align: center;
+         }
+         .teach img{
+             margin-top: 13%;
+             width: 85%;
+             border-radius: 10%;
+             margin-left: 5%;
+         }
+         #owl-slider{
+            width: 65%;
+            margin-left: 18%;
+            margin-top: 7%;
+            text-decoration: none;
+        }
+        .btnn{
+            margin-left: 5%;
+            margin-top: -42%;
+        }
+       
+       .text1{
+           margin-left: -74%;
+           margin-top: -81%;
+           font-size: 1.5rem;
+           
+       }
+       .world h1 {
+    
+        padding-top: 20%;
+    }
+    .num{
+        padding-left: 33%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+   
+    
+    .gray{
+        background-color:#ededed ;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        height: 1050px;
+        margin-top: 55%;
+    }
+    .btn-gray{
+        background-color: #d5d5d5;
+        border-radius: 2rem;
+        margin-left: 9%;
+        margin-top: 15%;
+        padding: .5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+     
+    }
+    .footer h1{
+        color: white;
+        text-align: center;
+        }
+        .footer .row{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            }
+        .footer p{
+         color: white;
+         font-size: 1.3rem;
+         padding-top: 9%;
+         text-align: center;
+          }
+          
+        .footer .info{
+          font-size: 1.5rem;
+          text-align: center;
+             }
+        .footer .alt{
+          font-size: 1rem;
+          color: gray;
+          padding-left: 1rem;
+          text-align: center;
+                 }
+        
+         .footer .btn-white{
+            background-color: white;
+            opacity: 0.5;
+            border-radius: 2rem;
+            margin-left: 18%;
+            margin-top: 1%;
+            padding: .9rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 70%;
+            
+         
+         }   
+         .footer .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-linkedin-in{
+            font-size: 1.1rem;
+            padding-left: 1rem;
+            
+        } 
+        
+     .footer .btn-yellow{
+       background-color: #efb366;
+       border-radius: 2rem;
+       margin-left: 18%;
+       margin-top: 1%;
+       padding: 1rem;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       width: 70%;
+       font-size: 1.2rem;
+       color: white;
+                
+             
+             }   
+   
+     }
+    
+     @media only screen and (max-width: 1024px) and (min-width:501px){
+        
+        .carousel-caption{
+            right: 60% !important;
+            bottom: 35% !important;
+            
+        }
+        .carousel-caption h3{
+   
+            font-size: 2.4rem;
+            margin-bottom: 1rem;
+        }
+        .carousel-caption .a2{
+            margin-left:5% ;
+            color: gray;
+            
+        }
+       
+         .little .slidee{
+            width: 270px;
+            height: 250px;
+            border-radius: 30px;
+            background-color: #e30613;
+         }
+         .teach {
+            margin-top: 0%;
+             
+         }
+         .teach h2{
+             margin-top: 1%;
+             font-weight: bold;
+             font-size: 3.9rem;
+             text-align: center;
+         }
+         .redd{
+            color: red;
+             
+         }
+         .teach h5{
+             margin-top: 10%;
+             font-weight: bold;
+             font-size: 2.5rem;
+             text-align: center;
+         }
+         .teach p{
+             margin-top: 9%;
+             font-size: 1.5rem;
+             width: 100%;
+             text-align: center;
+         }
+         .teach img{
+             margin-top: 10%;
+             width: 65%;
+             border-radius: 10%;
+             margin-left: 17%;
+         }
+         #owl-slider{
+          
+            margin-left: 18%;
+            margin-top: 7%;
+            text-decoration: none;
+        }
+        .btnn{
+            margin-left: 11%;
+            margin-top: -20%;
+        }
+       
+       .text1{
+           margin-left: -74%;
+           margin-top: -75%;
+           font-size: 1.5rem;
+           
+       }
+       .world h1 {
+    
+        padding-top: 15%;
+    }
+    .num{
+        padding-left: 25%;
+        margin-top: -15%;
+        margin-bottom: 10%;
+    }
+   
+    
+    .gray{
+        background-color:#ededed ;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        height: 600px;
+        margin-top: 55%;
+    }
+    .btn-gray{
+        background-color: #d5d5d5;
+        border-radius: 2rem;
+        margin-left: 30%;
+        margin-top: 15%;
+        padding: .5rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+     
+    }
+    .footer h1{
+        color: white;
+        text-align: center;
+        }
+        .footer .row{
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 6%;
+            padding-bottom: 6%;
+            }
+        .footer p{
+         color: white;
+         font-size: 1.8rem;
+         padding-top: 9%;
+         text-align: center;
+          }
+          
+        .footer .info{
+          font-size: 2rem;
+          text-align: center;
+             }
+        .footer .alt{
+          font-size: 1.4rem;
+          color: gray;
+          padding-left: 1rem;
+          text-align: center;
+                 }
+        
+         .footer .btn-white{
+            background-color: white;
+            opacity: 0.5;
+            border-radius: 2rem;
+            margin-left: 18%;
+            margin-top: 1%;
+            padding: .9rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            width: 70%;
+            
+         
+         }   
+         .footer .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-youtube, .fa-linkedin-in{
+            font-size: 1.1rem;
+            padding-left: 1rem;
+            
+        } 
+        
+     .footer .btn-yellow{
+       background-color: #efb366;
+       border-radius: 2rem;
+       margin-left: 18%;
+       margin-top: 1%;
+       padding: 1rem;
+       padding-left: 3rem;
+       padding-right: 3rem;
+       width: 70%;
+       font-size: 1.2rem;
+       color: white;
+                
+             
+             }   
+   
+     
+     }
